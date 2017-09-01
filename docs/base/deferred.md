@@ -1,6 +1,6 @@
 # new CUI.Deferred
 
-Deferred collects callbacks for **process**, **resolve **and **reject**. When any of these methods is called on an instance of an Deferred, all registered function are called.
+Deferred collects callbacks for **process**, **resolve** and **reject**. When any of these methods is called on an instance of an Deferred, all registered function are called.
 
 All applicable callback functions are called in the order of their registration.
 
