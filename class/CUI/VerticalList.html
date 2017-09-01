@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset='UTF-8'>
+  <title>CoffeeScript API Documentation</title>
+  <script src='../../javascript/application.js'></script>
+  <script src='../../javascript/search.js'></script>
+  <link rel='stylesheet' href='../../stylesheets/application.css' type='text/css'>
+</head>
+  <body>
+    <div id='base' data-path='../../'></div>
+<div id='header'>
+  <div id='menu'>
+    <a href='../../extra/README.md.html' title='Coffeescript-ui'>
+      Coffeescript-ui
+    </a>
+    &raquo;
+    <a href='../../alphabetical_index.html' title='Index'>
+      Index
+    </a>
+    &raquo;
+    <span class='title'>CUI</span>
+    &raquo;
+    <span class='title'>VerticalList</span>
+  </div>
+</div>
+    <div id='content'>
+      <h1>
+        Class:
+        CUI.VerticalList
+      </h1>
+      <table class='box'>
+        <tr>
+          <td>Defined in:</td>
+          <td>src&#47;elements&#47;VerticalList&#47;VerticalList.coffee</td>
+        </tr>
+        <tr>
+          <td>Inherits:</td>
+          <td>
+            <a href='../../class/CUI/VerticalLayout.html'>CUI.VerticalLayout</a>
+          </td>
+        </tr>
+      </table>
+      <h2>Overview</h2>
+      <div class='docstring'>
+  <ul>
+<li>coffeescript-ui - Coffeescript User Interface System (CUI)</li>
+<li>Copyright (c) 2013 - 2016 Programmfabrik GmbH</li>
+<li>MIT Licence</li>
+<li><a href="https://github.com/programmfabrik/coffeescript-ui">https://github.com/programmfabrik/coffeescript-ui</a>, <a href="http://www.coffeescript-ui.sorg">http://www.coffeescript-ui.sorg</a></li>
+</ul>
+
+</div>
+<div class='tags'>
+</div>
+      <h2>Variables Summary</h2>
+      
+      <h3 class='inherited'>
+        Variable inherited from
+        <a href='../../class/CUI/VerticalLayout.html'>CUI.VerticalLayout</a>
+      </h3>
+      <p class='inherited'>
+        <a href='../../class/CUI/DOM.html#__failedDOMInserts-variable'>__failedDOMInserts</a>
+        <a href='../../class/CUI/Element.html#uniqueId-variable'>uniqueId</a>
+      </p>
+      <h2>Instance Method Summary</h2>
+      <ul class='summary'>
+  <li>
+    <span class='signature'>
+      <a href='#initOpts-dynamic'>
+        #
+(void)
+<b>initOpts</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#readOpts-dynamic'>
+        #
+(void)
+<b>readOpts</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+    </span>
+  </li>
+  <li>
+    <span class='signature'>
+      <a href='#getSupportedPanes-dynamic'>
+        #
+(void)
+<b>getSupportedPanes</b><span>()</span>
+      </a>
+    </span>
+    <span class='desc'>
+    </span>
+  </li>
+</ul>
+      <h2>
+        <small>Inherited Method Summary</small>
+        <h3 class='inherited'>
+          Methods inherited from
+          <a href='../../class/CUI/VerticalLayout.html'>CUI.VerticalLayout</a>
+        </h3>
+        <p class='inherited'>
+          <a href='../../class/CUI/VerticalLayout.html#getName-dynamic'>#getName</a>
+          <a href='../../class/CUI/VerticalLayout.html#getMapPrefix-dynamic'>#getMapPrefix</a>
+          <a href='../../class/CUI/VerticalLayout.html#hasFlexHandles-dynamic'>#hasFlexHandles</a>
+          <a href='../../class/CUI/VerticalLayout.html#getPanes-dynamic'>#getPanes</a>
+          <a href='../../class/CUI/VerticalLayout.html#getSupportedPanes-dynamic'>#getSupportedPanes</a>
+          <a href='../../class/CUI/Layout.html#initOpts-dynamic'>#initOpts</a>
+          <a href='../../class/CUI/Layout.html#readOpts-dynamic'>#readOpts</a>
+          <a href='../../class/CUI/Layout.html#maximizeAddClasses-dynamic'>#maximizeAddClasses</a>
+          <a href='../../class/CUI/Layout.html#maximizeReadOpts-dynamic'>#maximizeReadOpts</a>
+          <a href='../../class/CUI/Layout.html#init-dynamic'>#init</a>
+          <a href='../../class/CUI/Layout.html#getTemplateMap-dynamic'>#getTemplateMap</a>
+          <a href='../../class/CUI/Layout.html#__init-dynamic'>#__init</a>
+          <a href='../../class/CUI/Layout.html#destroy-dynamic'>#destroy</a>
+          <a href='../../class/CUI/Layout.html#__initPane-dynamic'>#__initPane</a>
+          <a href='../../class/CUI/Layout.html#initDefaultPanes-dynamic'>#initDefaultPanes</a>
+          <a href='../../class/CUI/Layout.html#getLayout-dynamic'>#getLayout</a>
+          <a href='../../class/CUI/Layout.html#getButtonbar-dynamic'>#getButtonbar</a>
+          <a href='../../class/CUI/Layout.html#__callAutoButtonbar-dynamic'>#__callAutoButtonbar</a>
+          <a href='../../class/CUI/Layout.html#append-dynamic'>#append</a>
+          <a href='../../class/CUI/Layout.html#replace-dynamic'>#replace</a>
+          <a href='../../class/CUI/Layout.html#setAbsolute-dynamic'>#setAbsolute</a>
+          <a href='../../class/CUI/Layout.html#unsetAbsolute-dynamic'>#unsetAbsolute</a>
+          <a href='../../class/CUI/Layout.html#__all-static'>.__all</a>
+          <a href='../../class/CUI/Layout.html#all-static'>.all</a>
+          <a href='../../class/CUI/DOM.html#registerTemplate-dynamic'>#registerTemplate</a>
+          <a href='../../class/CUI/DOM.html#getDOMElementClasses-dynamic'>#getDOMElementClasses</a>
+          <a href='../../class/CUI/DOM.html#registerDOMElement-dynamic'>#registerDOMElement</a>
+          <a href='../../class/CUI/DOM.html#setElement-dynamic'>#setElement</a>
+          <a href='../../class/CUI/DOM.html#getElementForLayer-dynamic'>#getElementForLayer</a>
+          <a href='../../class/CUI/DOM.html#unregisterDOMElement-dynamic'>#unregisterDOMElement</a>
+          <a href='../../class/CUI/DOM.html#__assertDOMElement-dynamic'>#__assertDOMElement</a>
+          <a href='../../class/CUI/DOM.html#__assertTemplateElement-dynamic'>#__assertTemplateElement</a>
+          <a href='../../class/CUI/DOM.html#addClass-dynamic'>#addClass</a>
+          <a href='../../class/CUI/DOM.html#setAria-dynamic'>#setAria</a>
+          <a href='../../class/CUI/DOM.html#removeClass-dynamic'>#removeClass</a>
+          <a href='../../class/CUI/DOM.html#hide-dynamic'>#hide</a>
+          <a href='../../class/CUI/DOM.html#show-dynamic'>#show</a>
+          <a href='../../class/CUI/DOM.html#hasClass-dynamic'>#hasClass</a>
+          <a href='../../class/CUI/DOM.html#isDestroyed-dynamic'>#isDestroyed</a>
+          <a href='../../class/CUI/DOM.html#empty-dynamic'>#empty</a>
+          <a href='../../class/CUI/DOM.html#prepend-dynamic'>#prepend</a>
+          <a href='../../class/CUI/DOM.html#text-dynamic'>#text</a>
+          <a href='../../class/CUI/DOM.html#getFlexHandle-dynamic'>#getFlexHandle</a>
+          <a href='../../class/CUI/DOM.html#data-static'>.data</a>
+          <a href='../../class/CUI/DOM.html#removeData-static'>.removeData</a>
+          <a href='../../class/CUI/DOM.html#findElement-static'>.findElement</a>
+          <a href='../../class/CUI/DOM.html#findNextElement-static'>.findNextElement</a>
+          <a href='../../class/CUI/DOM.html#findPreviousElement-static'>.findPreviousElement</a>
+          <a href='../../class/CUI/DOM.html#findNextVisibleElement-static'>.findNextVisibleElement</a>
+          <a href='../../class/CUI/DOM.html#findPreviousVisibleElement-static'>.findPreviousVisibleElement</a>
+          <a href='../../class/CUI/DOM.html#findNextSiblings-static'>.findNextSiblings</a>
+          <a href='../../class/CUI/DOM.html#findPreviousSiblings-static'>.findPreviousSiblings</a>
+          <a href='../../class/CUI/DOM.html#findElements-static'>.findElements</a>
+          <a href='../../class/CUI/DOM.html#firstElementChild-static'>.firstElementChild</a>
+          <a href='../../class/CUI/DOM.html#children-static'>.children</a>
+          <a href='../../class/CUI/DOM.html#lastElementChild-static'>.lastElementChild</a>
+          <a href='../../class/CUI/DOM.html#nextElementSibling-static'>.nextElementSibling</a>
+          <a href='../../class/CUI/DOM.html#previousElementSibling-static'>.previousElementSibling</a>
+          <a href='../../class/CUI/DOM.html#removeAttribute-static'>.removeAttribute</a>
+          <a href='../../class/CUI/DOM.html#setAttribute-static'>.setAttribute</a>
+          <a href='../../class/CUI/DOM.html#hasAttribute-static'>.hasAttribute</a>
+          <a href='../../class/CUI/DOM.html#setAttributeMap-static'>.setAttributeMap</a>
+          <a href='../../class/CUI/DOM.html#width-static'>.width</a>
+          <a href='../../class/CUI/DOM.html#height-static'>.height</a>
+          <a href='../../class/CUI/DOM.html#__append-static'>.__append</a>
+          <a href='../../class/CUI/DOM.html#getAttribute-static'>.getAttribute</a>
+          <a href='../../class/CUI/DOM.html#remove-static'>.remove</a>
+          <a href='../../class/CUI/DOM.html#toggleClass-static'>.toggleClass</a>
+          <a href='../../class/CUI/DOM.html#setClass-static'>.setClass</a>
+          <a href='../../class/CUI/DOM.html#getRelativeOffset-static'>.getRelativeOffset</a>
+          <a href='../../class/CUI/DOM.html#hasAnimatedClone-static'>.hasAnimatedClone</a>
+          <a href='../../class/CUI/DOM.html#initAnimatedClone-static'>.initAnimatedClone</a>
+          <a href='../../class/CUI/DOM.html#syncAnimatedClone-static'>.syncAnimatedClone</a>
+          <a href='../../class/CUI/DOM.html#removeAnimatedClone-static'>.removeAnimatedClone</a>
+          <a href='../../class/CUI/DOM.html#setAbsolutePosition-static'>.setAbsolutePosition</a>
+          <a href='../../class/CUI/DOM.html#waitForDOMRemove-static'>.waitForDOMRemove</a>
+          <a href='../../class/CUI/DOM.html#waitForDOMInsert-static'>.waitForDOMInsert</a>
+          <a href='../../class/CUI/DOM.html#getNode-static'>.getNode</a>
+          <a href='../../class/CUI/DOM.html#printElement-static'>.printElement</a>
+          <a href='../../class/CUI/DOM.html#isNode-static'>.isNode</a>
+          <a href='../../class/CUI/DOM.html#insertChildAtPosition-static'>.insertChildAtPosition</a>
+          <a href='../../class/CUI/DOM.html#insertBefore-static'>.insertBefore</a>
+          <a href='../../class/CUI/DOM.html#insertAfter-static'>.insertAfter</a>
+          <a href='../../class/CUI/DOM.html#is-static'>.is</a>
+          <a href='../../class/CUI/DOM.html#matches-static'>.matches</a>
+          <a href='../../class/CUI/DOM.html#find-static'>.find</a>
+          <a href='../../class/CUI/DOM.html#matchSelector-static'>.matchSelector</a>
+          <a href='../../class/CUI/DOM.html#elementsUntil-static'>.elementsUntil</a>
+          <a href='../../class/CUI/DOM.html#parent-static'>.parent</a>
+          <a href='../../class/CUI/DOM.html#closest-static'>.closest</a>
+          <a href='../../class/CUI/DOM.html#closestUntil-static'>.closestUntil</a>
+          <a href='../../class/CUI/DOM.html#parentsUntil-static'>.parentsUntil</a>
+          <a href='../../class/CUI/DOM.html#parents-static'>.parents</a>
+          <a href='../../class/CUI/DOM.html#isInDOM-static'>.isInDOM</a>
+          <a href='../../class/CUI/DOM.html#replaceWith-static'>.replaceWith</a>
+          <a href='../../class/CUI/DOM.html#getRect-static'>.getRect</a>
+          <a href='../../class/CUI/DOM.html#getComputedStyle-static'>.getComputedStyle</a>
+          <a href='../../class/CUI/DOM.html#setStyle-static'>.setStyle</a>
+          <a href='../../class/CUI/DOM.html#setStyleOne-static'>.setStyleOne</a>
+          <a href='../../class/CUI/DOM.html#setStylePx-static'>.setStylePx</a>
+          <a href='../../class/CUI/DOM.html#getRelativePosition-static'>.getRelativePosition</a>
+          <a href='../../class/CUI/DOM.html#getDimensions-static'>.getDimensions</a>
+          <a href='../../class/CUI/DOM.html#parentsScrollable-static'>.parentsScrollable</a>
+          <a href='../../class/CUI/DOM.html#setDimension-static'>.setDimension</a>
+          <a href='../../class/CUI/DOM.html#getDimension-static'>.getDimension</a>
+          <a href='../../class/CUI/DOM.html#prepareSetDimensions-static'>.prepareSetDimensions</a>
+          <a href='../../class/CUI/DOM.html#setDimensions-static'>.setDimensions</a>
+          <a href='../../class/CUI/DOM.html#htmlToNodes-static'>.htmlToNodes</a>
+          <a href='../../class/CUI/DOM.html#findTextInNodes-static'>.findTextInNodes</a>
+          <a href='../../class/CUI/DOM.html#getCSSFloatValue-static'>.getCSSFloatValue</a>
+          <a href='../../class/CUI/DOM.html#isPositioned-static'>.isPositioned</a>
+          <a href='../../class/CUI/DOM.html#isVisible-static'>.isVisible</a>
+          <a href='../../class/CUI/DOM.html#getBoxSizing-static'>.getBoxSizing</a>
+          <a href='../../class/CUI/DOM.html#isBorderBox-static'>.isBorderBox</a>
+          <a href='../../class/CUI/DOM.html#isContentBox-static'>.isContentBox</a>
+          <a href='../../class/CUI/DOM.html#hideElement-static'>.hideElement</a>
+          <a href='../../class/CUI/DOM.html#removeChildren-static'>.removeChildren</a>
+          <a href='../../class/CUI/DOM.html#showElement-static'>.showElement</a>
+          <a href='../../class/CUI/DOM.html#space-static'>.space</a>
+          <a href='../../class/CUI/DOM.html#element-static'>.element</a>
+          <a href='../../class/CUI/DOM.html#debugRect-static'>.debugRect</a>
+          <a href='../../class/CUI/DOM.html#scrollIntoView-static'>.scrollIntoView</a>
+          <a href='../../class/CUI/DOM.html#setClassOnMousemove-static'>.setClassOnMousemove</a>
+          <a href='../../class/CUI/DOM.html#requestFullscreen-static'>.requestFullscreen</a>
+          <a href='../../class/CUI/DOM.html#exitFullscreen-static'>.exitFullscreen</a>
+          <a href='../../class/CUI/DOM.html#fullscreenElement-static'>.fullscreenElement</a>
+          <a href='../../class/CUI/DOM.html#fullscreenEnabled-static'>.fullscreenEnabled</a>
+          <a href='../../class/CUI/DOM.html#isFullscreen-static'>.isFullscreen</a>
+          <a href='../../class/CUI/DOM.html#$element-static'>.$element</a>
+          <a href='../../class/CUI/DOM.html#$div-static'>.$div</a>
+          <a href='../../class/CUI/DOM.html#$video-static'>.$video</a>
+          <a href='../../class/CUI/DOM.html#$audio-static'>.$audio</a>
+          <a href='../../class/CUI/DOM.html#$source-static'>.$source</a>
+          <a href='../../class/CUI/DOM.html#$span-static'>.$span</a>
+          <a href='../../class/CUI/DOM.html#$table-static'>.$table</a>
+          <a href='../../class/CUI/DOM.html#$img-static'>.$img</a>
+          <a href='../../class/CUI/DOM.html#$tr-static'>.$tr</a>
+          <a href='../../class/CUI/DOM.html#$th-static'>.$th</a>
+          <a href='../../class/CUI/DOM.html#$td-static'>.$td</a>
+          <a href='../../class/CUI/DOM.html#$i-static'>.$i</a>
+          <a href='../../class/CUI/DOM.html#$p-static'>.$p</a>
+          <a href='../../class/CUI/DOM.html#$pre-static'>.$pre</a>
+          <a href='../../class/CUI/DOM.html#$ul-static'>.$ul</a>
+          <a href='../../class/CUI/DOM.html#$a-static'>.$a</a>
+          <a href='../../class/CUI/DOM.html#$b-static'>.$b</a>
+          <a href='../../class/CUI/DOM.html#$li-static'>.$li</a>
+          <a href='../../class/CUI/DOM.html#$label-static'>.$label</a>
+          <a href='../../class/CUI/DOM.html#$h1-static'>.$h1</a>
+          <a href='../../class/CUI/DOM.html#$h2-static'>.$h2</a>
+          <a href='../../class/CUI/DOM.html#$h3-static'>.$h3</a>
+          <a href='../../class/CUI/DOM.html#$h4-static'>.$h4</a>
+          <a href='../../class/CUI/DOM.html#$h5-static'>.$h5</a>
+          <a href='../../class/CUI/DOM.html#$h6-static'>.$h6</a>
+          <a href='../../class/CUI/DOM.html#$text-static'>.$text</a>
+          <a href='../../class/CUI/DOM.html#$textEmpty-static'>.$textEmpty</a>
+          <a href='../../class/CUI/DOM.html#$table_one_row-static'>.$table_one_row</a>
+          <a href='../../class/CUI/DOM.html#$tr_one_row-static'>.$tr_one_row</a>
+          <a href='../../class/CUI/Element.html#getElementClass-dynamic'>#getElementClass</a>
+          <a href='../../class/CUI/Element.html#getUniqueId-dynamic'>#getUniqueId</a>
+          <a href='../../class/CUI/Element.html#getOpts-dynamic'>#getOpts</a>
+          <a href='../../class/CUI/Element.html#getOpt-dynamic'>#getOpt</a>
+          <a href='../../class/CUI/Element.html#hasOpt-dynamic'>#hasOpt</a>
+          <a href='../../class/CUI/Element.html#getSetOpt-dynamic'>#getSetOpt</a>
+          <a href='../../class/CUI/Element.html#hasSetOpt-dynamic'>#hasSetOpt</a>
+          <a href='../../class/CUI/Element.html#copy-dynamic'>#copy</a>
+          <a href='../../class/CUI/Element.html#mergeOpt-dynamic'>#mergeOpt</a>
+          <a href='../../class/CUI/Element.html#removeOpt-dynamic'>#removeOpt</a>
+          <a href='../../class/CUI/Element.html#addOpt-dynamic'>#addOpt</a>
+          <a href='../../class/CUI/Element.html#addOpts-dynamic'>#addOpts</a>
+          <a href='../../class/CUI/Element.html#mergeOpts-dynamic'>#mergeOpts</a>
+          <a href='../../class/CUI/Element.html#__getCheckMap-dynamic'>#__getCheckMap</a>
+          <a href='../../class/CUI/Element.html#readOptsFromAttr-dynamic'>#readOptsFromAttr</a>
+          <a href='../../class/CUI/Element.html#proxy-dynamic'>#proxy</a>
+          <a href='../../class/CUI/Element.html#getOptKeys-static'>.getOptKeys</a>
+        </p>
+      </h2>
+      <h2>Instance Method Details</h2>
+      <div class='methods'>
+  <div class='method_details'>
+    <p class='signature' id='initOpts-dynamic'>
+      #
+(void)
+<b>initOpts</b><span>()</span>
+      <br>
+    </p>
+    
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='readOpts-dynamic'>
+      #
+(void)
+<b>readOpts</b><span>()</span>
+      <br>
+    </p>
+    
+  </div>
+  <div class='method_details'>
+    <p class='signature' id='getSupportedPanes-dynamic'>
+      #
+(void)
+<b>getSupportedPanes</b><span>()</span>
+      <br>
+    </p>
+    
+  </div>
+</div>
+    </div>
+    <div id='footer'>
+  By
+  <a href='https://github.com/coffeedoc/codo' title='CoffeeScript API documentation generator'>
+    Codo
+  </a>
+  2.1.2
+  &#10034;
+  Press H to see the keyboard shortcuts
+  &#10034;
+  <a href='http://twitter.com/netzpirat' target='_parent'>@netzpirat</a>
+  &#10034;
+  <a href='http://twitter.com/_inossidabile' target='_parent'>@_inossidabile</a>
+</div>
+<iframe id='search_frame'></iframe>
+<div id='fuzzySearch'>
+  <input type='text'>
+  <ol></ol>
+</div>
+<div id='help'>
+  <p>
+    Quickly fuzzy find classes, mixins, methods, file:
+  </p>
+  <ul>
+    <li>
+      <span>T</span>
+      Open fuzzy finder dialog
+    </li>
+  </ul>
+  <p>
+    Control the navigation frame:
+  </p>
+  <ul>
+    <li>
+      <span>L</span>
+      Toggle list view
+    </li>
+    <li>
+      <span>C</span>
+      Show class list
+    </li>
+    <li>
+      <span>I</span>
+      Show mixin list
+    </li>
+    <li>
+      <span>F</span>
+      Show file list
+    </li>
+    <li>
+      <span>M</span>
+      Show method list
+    </li>
+    <li>
+      <span>E</span>
+      Show extras list
+    </li>
+  </ul>
+  <p>
+    You can focus and blur the search input:
+  </p>
+  <ul>
+    <li>
+      <span>S</span>
+      Focus search input
+    </li>
+    <li>
+      <span>Esc</span>
+      Blur search input
+    </li>
+  </ul>
+</div>
+  </body>
+</html>

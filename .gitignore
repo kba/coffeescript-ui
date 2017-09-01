@@ -1,0 +1,9 @@
+public/*
+.sass-cache
+*.coffee.js
+*~
+*\#
+.DS_Store
+commit.txt
+/node_modules
+.\#*
